@@ -46,3 +46,8 @@ th { color: var(--fg2); font-weight: 600; font-size: 13px; }
 tr:last-child td { border-bottom: 0; }
 td:first-child { white-space: nowrap; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 13px; }
 @media (max-width: 560px) { td:first-child { white-space: normal; } }
+details { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 0 16px; margin: 10px 0; }
+details[open] { padding-bottom: 4px; }
+summary { cursor: pointer; padding: 12px 0; font-weight: 600; }
+details p { margin: 0 0 12px; color: var(--fg2); }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; background: var(--soft); padding: 1px 5px; border-radius: 5px; }
