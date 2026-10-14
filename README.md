@@ -1,6 +1,6 @@
 # best-download-manager
 
-Public website for **Forma – Download Manager**, a Chrome extension: product page and privacy policy.
+Public website for **Best Download Manager**, a Chrome extension: product page and privacy policy.
 Served by GitHub Pages at https://vescart.github.io/best-download-manager/
 
 - `index.html` — product page
