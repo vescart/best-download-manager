@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vescart.github.io/best-download-manager/sitemap.xml
