@@ -52,7 +52,7 @@
       <h2>What BDM stores</h2>
       <p>
         Using Chrome's local extension storage, on your device only: your settings (theme, layout and alert preferences), your collections
-        (their names and the IDs of the downloads you added), and small counters used to limit tips and notifications. Nothing is synced or
+        (their names and the IDs of the downloads you added), your auto-group rules and saved views, and small counters used to limit tips and notifications. Nothing is synced or
         sent elsewhere by BDM.
       </p>
 
@@ -65,13 +65,22 @@
         history. Nothing is uploaded.
       </p>
 
+      <h2>Auto-groups and cleanup</h2>
+      <p>
+        Auto-groups are rules you write (for example “extension is .csv”). BDM applies them on your device to your download history; the rules and
+        which files you deleted are saved in local extension storage and never leave your device. BDM can show a notification, at most
+        once a day, when files in a group are ready to delete. BDM <strong>never deletes a file on its own</strong>: a file is deleted from your
+        computer only after you select it, tap Delete and confirm.
+      </p>
+
       <h2>Permissions and why they are needed</h2>
       <table>
         <tr><th>Permission</th><th>Used for</th></tr>
-        <tr><td>downloads</td><td>Reading and showing your download history; removing an entry when you ask.</td></tr>
+        <tr><td>downloads</td><td>Reading and showing your download history; removing an entry, or deleting a downloaded file, only when you ask and confirm.</td></tr>
         <tr><td>downloads.open</td><td>Opening a downloaded file when you click Open.</td></tr>
         <tr><td>storage</td><td>Saving your settings and collections on your device.</td></tr>
         <tr><td>notifications</td><td>Telling you when a download finishes (limited to a few per day; can be turned off).</td></tr>
+        <tr><td>alarms</td><td>Checking about once an hour whether files in your auto-groups are ready to delete, so BDM can remind you (at most once a day).</td></tr>
         <tr><td>scripting</td><td>Showing the optional progress card on the page you are viewing.</td></tr>
         <tr>
           <td>Access to websites <em>(optional)</em></td>
