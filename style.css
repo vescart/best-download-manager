@@ -62,3 +62,14 @@ ol { padding-left: 22px; }
 .tryit .cta { margin: 12px 0 0; }
 .guide-list { list-style: none; padding: 0; }
 .guide-list li { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 12px 0; }
+.linkish { background: none; border: 0; padding: 0; font: inherit; color: var(--accent); text-decoration: underline; cursor: pointer; }
+.join, .join[open] { margin: 4px 0 0; padding: 0; background: none; border: 0; }
+.join > summary.cta { list-style: none; cursor: pointer; margin: 0; padding: 12px 22px; }
+.join > summary::-webkit-details-marker { display: none; }
+.join[open] > summary { filter: brightness(1.08); }
+.join-menu { margin-top: 12px; max-width: 420px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 8px; }
+.join-hint { margin: 4px 8px 8px; font-size: 14px; color: var(--fg2); }
+.join-opt { display: block; width: 100%; text-align: left; padding: 10px 12px; border-radius: 10px; color: var(--fg); text-decoration: none; background: none; border: 0; font: inherit; cursor: pointer; }
+.join-opt:hover, .join-opt:focus-visible { background: var(--soft); }
+.join-opt strong { display: block; font-size: 15px; }
+.join-opt span { display: block; font-size: 13px; color: var(--fg2); }
